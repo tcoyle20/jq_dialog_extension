@@ -1,0 +1,37 @@
+
+/* basic page styling */
+body {
+	font: 16px Arial;
+}
+.container {
+	width: 800px;
+	margin: 100px auto;
+}
+h1 {
+	text-align: center;
+}
+
+
+/* customizable dialog styling */
+.dialog {
+	display: none; /* Initially hidden */
+	background: url('bg-tooltip-black.png') 0 0 no-repeat;
+	width: 356px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+.dialog p {
+	width: 306px;
+	margin: 0 25px;
+	padding-top: 18px;
+	font-size: 12px;
+	line-height: 15px;
+	color: #fff;
+}
+.dialog p span {
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: bold;
+}
